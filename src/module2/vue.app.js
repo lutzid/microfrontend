@@ -5,7 +5,7 @@ import Hello from './main.vue'
 const vueLifecycles = singleSpaVue({
   Vue,
   appOptions: {
-    el: '#vue',
+    el: '#module2',
     render: r => r(Hello)
   } 
 });
